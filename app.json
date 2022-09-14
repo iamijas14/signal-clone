@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "signal-clone",
+    "name": "signal14",
     "slug": "signal-clone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/singal-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/singal-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +21,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "ijas.signal14",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/singal-logo.png",
+        "backgroundColor": "#fff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49736878-cece-4754-803a-17278dcf9e60"
+      }
     }
   }
 }
